@@ -54,6 +54,13 @@ section#redes-sociais{
     text-align: right;
 }
 
+@media(max-width: 400px){
+    section#redes-sociais{
+        flex-direction: row;
+        display: flex;
+    }
+}
+
 section#redes-sociais img{
     width: 50px;
     margin: 10px;
