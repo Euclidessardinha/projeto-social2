@@ -52,6 +52,15 @@ iframe#tela{
 
 section#redes-sociais{
     text-align: right;
+    
+}
+
+@media (max-width: 500px){
+    section#redes-sociais{
+        flex-direction: row;
+        display: flex;
+
+    }
 }
 
 section#redes-sociais img{
